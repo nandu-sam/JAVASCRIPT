@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.homepage>nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/51e53f54-0d9f-40ec-9e05-c030def06ac9/be5b2939-da9f-4b9f-b76b-31b32ad0515b/IN-en-20230515-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage>.content {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.99), rgba(rgba(0, 0, 0, 0.995)128, 128, 0.377), rgb(0, 0, 0));
+    text-align: center;
+    margin-top: 200px;
+    color: whitesmoke;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+nav {
+    padding: 10px 100px;
+}
+
+.logo>p {
+    font-size: 35px;
+    color: brown;
+    font-weight: 900;
+}
+
+.content>h1 {
+    font-size: 60px;
+}
+
+.content>p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.content>input {
+    width: 350px;
+    height: 55px;
+    border: 2px white;
+    background-color: rgba(34, 33, 33, 0.733);
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 15PX;
+    color: white;
+
+}
+
+.content>button {
+    width: 200px;
+    height: 55px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    color: whitesmoke;
+}
+
+.section {
+    height: 500px;
+    background-color: rgb(15, 15, 15);
+    width: 100vw;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content-2 {
+    color: white;
+}
+
+.content-2>h1 {
+    font-size: 50px;
+}
+
+.content-2>p {
+    margin: 10px 0px;
+}
+
+#poster {
+    position: absolute;
+    right: 170px;
+    top: 788px;
+}
+
+#b1 {
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#b2 {
+    background-color: rgb(229, 9, 20);
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#blure {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(128, 128, 128, 0.123), black);
+}

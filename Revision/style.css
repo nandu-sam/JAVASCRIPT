@@ -1,0 +1,15 @@
+.box-red {
+    background: #ff0000;
+    height: 250px;
+    width: 250px;
+    top: 250;
+
+    position: relative;
+}
+
+.box-blue {
+    background: blue;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
