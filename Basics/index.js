@@ -448,6 +448,7 @@ console.log(raya.calculateAge(2000)); */
 SOLUTION: when we just pass the properties parameter we should make sure that after every changes made to objects data we should pass the changed data
 but instead if we use this keyword we can directly point to required objects properties*/
 //SOLUTION example
+
 // AN OBJECT LOOKS LIKE THIS
 /*const raya = {
   firstName: "Raya",
