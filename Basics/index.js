@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 //this is used to has less error and bugs and its used because it identifies any error
 
 /*let username;
@@ -535,7 +535,7 @@ console.log(
   console.log(`Lifiting repeated weights ${rep} 🏋️‍♂️`);
 }
 */
-/*THIS IS THE ARRAY EXAMPLE */
+/*THIS IS THE ARRAY EXAMPLE 
 const raya = [
   "Raya",
   "Benja",
@@ -548,3 +548,48 @@ for (let i = 0; i < raya.length; i++) {
   if (typeof raya[i] !== "string") continue;
   console.log(raya[i], typeof raya[i]);
 }
+console.log("Break - With - Number");
+for (let i = 0; i < raya.length; i++) {
+  if (typeof raya[i] === "number") break;
+  console.log(raya[i], typeof raya[i]);
+}*/
+
+/*NESTED LOOPS EXAMPLES
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`-----starting exercise------- ${exercise}`);
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Lifting weght repetition ${rep} 🏋️‍♂️`);
+  }
+}*/
+//  usecase of while loop
+
+/*
+let dice = Math.trunc(Math.random() * 6) + 1;
+while (dice !== 6) {
+  console.log(`you rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log("Loop is about to end");
+} */
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+for (let i = 0; i < bills.length; i++) {
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(tip + bills[i]);
+}
+console.log(bills, tips, totals);
+const calcAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+};
+console.log(calcAverage([2, 3, 7]));
+console.log(calcAverage(totals));
+console.log(calcAverage(tips));
