@@ -1,0 +1,9 @@
+1). To run any file on the internet copy the file and run in server or 
+Click on the file that you want to run and use the option known as open in browser and start noticing changes
+in the file
+
+2)node --watch index.js willbe the format to look the output in command prompt
+
+3) npm install will work fine to install anything or any package
+
+
